@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(220, 238, 250);
+    color: #333;
+}
+
+h1 {
+    color: rgb(62, 62, 122);
+    text-align: center;
+    margin: 40px auto;
+}
+
+h2 {
+    color: rgb(62, 62, 122);
+    text-align: center;
+}
+
+a {
+    color: white;
+    background-color: rgb(62, 100, 180);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: rgb(40, 65, 130);
+}
+
+.priscila_ama_paulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.CardProfisaao {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.CardProfisaao:hover {
+    background-color: rgb(235, 245, 255);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid rgb(180, 200, 230);
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+}
+
+.card:hover {
+    background-color: rgb(235, 245, 255);
+}
